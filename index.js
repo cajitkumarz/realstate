@@ -1,2 +1,6 @@
 const http = require('http');
-const port= Require("./config/app.json/port")
+const express = require('express');
+const config = require('./config/app.json');
+const port = config.port;
+
+console.log(port);
